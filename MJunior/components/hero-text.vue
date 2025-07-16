@@ -9,22 +9,24 @@
         <Hero-Button buttonText="Kontakt" customClass="yellow-button" />
     </div>
   
-<div class="stats-section">
+    <div class="stats-section">
+  <div class="stats-wrapper">
     <div class="gradient-line"></div>
     <div class="stats">
-        <div class="stat">
-            <div class="stat-number">30+</div>
-            <div class="stat-label">Godina</div>
-        </div>
-        <div class="stat">
-            <div class="stat-number">750+</div>
-            <div class="stat-label">Projekata</div>
-        </div>
-        <div class="stat">
-            <div class="stat-number">60 000+</div>
-            <div class="stat-label">Zadovoljnih klijenata</div>
-        </div>
+      <div class="stat">
+        <div class="stat-number">30+</div>
+        <div class="stat-label">Godina</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">750+</div>
+        <div class="stat-label">Projekata</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">60 000+</div>
+        <div class="stat-label">Zadovoljnih klijenata</div>
+      </div>
     </div>
+  </div>
 </div>
     </template>
 
@@ -43,6 +45,7 @@
     font-size: 4rem;
     width: 100%;
     max-width: 500px;
+    font-weight: 500;
 }
 
 .main-text h1 {
@@ -61,14 +64,14 @@
 }
 
 .blue-button {
-    background-color: #007bff;
+    background-color: #2463EB;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 .blue-button:hover {
-    background-color: #0056b3;
+    background-color: #1d4aab;
 }
 
 .yellow-button{
@@ -81,17 +84,34 @@
     background-color: #e0a800;
 }
 
+.gradient-line {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, #00C9FF, #92FE9D, #fdfd00);
+}
+
+.stats-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: max-content;
+}
+
+.stats-section {
+  margin-top: 2rem;
+}
 
 .stats {
   display: flex;
   gap: 5rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
   width: 100%;
   max-width: fit-content;
 }
 
-.stat {
-  text-align: center;
+.stats {
+  display: flex;
+  gap: 5rem;
 }
 
 .stat-number {

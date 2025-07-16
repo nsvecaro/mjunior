@@ -136,7 +136,7 @@ function goToSlide(index) {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #ccc;
+    background: #a0bcf8;
     transition: background 0.3s ease;
 }
 
