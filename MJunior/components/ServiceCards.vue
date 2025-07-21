@@ -49,7 +49,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1.4rem;
     padding: 2rem;
-    margin: 0px 200px;
+    max-width: 1200px;
+    margin: 0px auto;
   }
   
   .card {
@@ -62,6 +63,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
   }
   
   .card:hover {
@@ -71,6 +73,11 @@
   .icon {
     color: #246bfb;
     margin-bottom: 1rem;
+  }
+
+  .icon svg{
+    width: 28px;
+    height: 28px;
   }
   
   .title {
@@ -94,6 +101,8 @@
   @media (max-width: 600px) {
     .cards-grid {
       grid-template-columns: 1fr;
+      gap: 1.8rem;
+      padding: 1.5rem;
     }
   }
   </style>

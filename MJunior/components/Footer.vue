@@ -21,11 +21,9 @@
           <p>Prijedor, 79101<br />Donja Čela bb</p>
           <p>Telefon: +387 52 370 770</p>
           <div class="logos">
-            <img src="" alt="Logo 1" />
-            <img src="" alt="Logo 2" />
-            <img src="" alt="Logo 3" />
-            <img src="" alt="Logo 4" />
-            <img src="" alt="Logo 5" />
+            <img src="/images/certs.jpg" alt="Certifikati FSB" />
+            <img src="/images/eucert.jpg" alt="Certifikat Europske Unije" />
+            <img src="/images/eusuf.jpg" alt="Sufinanciranje od strane Europske Unije" />
           </div>
         </div>
       </div>
@@ -48,20 +46,21 @@
   </template>
   
   <style scoped>
-  .footer {
-    background: #f6f6f6;
-    padding: 3rem;
-    font-family: 'Lexend', sans-serif;
-  }
+.footer {
+  background: #f6f6f6;
+  padding: 3rem 2rem;
+  font-family: 'Lexend', sans-serif;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
   
-  .footer-top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 2rem;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 2rem;
-  }
+.footer-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+}
   
   .column {
     flex: 1 1 250px;
@@ -69,14 +68,24 @@
     flex-direction: column;
     gap: 1rem;
   }
+
+
+.column h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
   
-  .nav-links a {
-    display: inline-block;
-    margin-right: 1.5rem;
-    color: #000;
-    text-decoration: none;
-    font-weight: 500;
-  }
+.nav-links a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
   
   .nav-links a:hover {
     text-decoration: underline;
@@ -90,32 +99,73 @@
   }
   
   .logos img {
-    width: 40px;
-    height: auto;
-  }
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
   
   .footer-bottom {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #555;
+  gap: 2rem;
+}
+  
+.policy-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.policy-links a {
+  color: #555;
+  text-decoration: none;
+}
+
+.policy-links a:hover {
+  text-decoration: underline;
+}
+
+.bottom-left p {
+  margin: 0.3rem 0;
+}
+
+.bottom-right {
+  margin-left: auto;
+}
+
+@media (max-width: 960px) {
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bottom-right {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 2rem;
-    font-size: 0.9rem;
-    color: #555;
-  }
-  
-  .policy-links {
-    display: flex;
     gap: 1rem;
-    margin: 1rem 0;
   }
-  
-  .policy-links a {
-    color: #555;
-    text-decoration: none;
+
+  .logos {
+    justify-content: flex-start;
   }
-  
-  .policy-links a:hover {
-    text-decoration: underline;
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
   }
+}
   </style>

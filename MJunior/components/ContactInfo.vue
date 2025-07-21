@@ -2,7 +2,7 @@
     <div class="kontakt-info">
         <div class="info-item" v-for="item in info" :key="item.label">
             <div class="icon" v-html="item.icon"></div>
-            <div class="text">
+            <div class="text-wrapper">
                 <h3 class="label">{{ item.label }}</h3>
                 <p class="value" v-html="item.value"></p>
             </div>
@@ -38,32 +38,53 @@ const info = [
 }
 
 .info-item {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 1rem;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .icon {
-    background: #246bfb;
-    padding: 0.1rem;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 44px;
-    min-height: 44px;
+  background: #246bfb;
+  padding: 0.1rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
 }
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .label {
-    font-weight: 700;
-    font-size: 1.8rem;
-    margin: 0;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin: 0;
 }
 
+
 .value {
-    color: #000000a0;
-    line-height: 1.4;
-    margin-top: 0.3rem;
+  color: #000000a0;
+  line-height: 1.4;
+  margin: 0.3rem 0 0 0;
+}
+
+@media (max-width: 640px) {
+    .kontakt-info {
+        gap: 2rem;
+    }
+
+    .info-item {
+        grid-template-columns: 1fr;
+    }
+
+    .icon {
+        margin-bottom: 0.5rem;
+        width: 44px;
+    }
 }
 </style>

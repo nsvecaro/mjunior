@@ -59,8 +59,33 @@
   .gradient-line {
     height: 2px;
     width: 200px;
-    margin: 0 auto;
     background: linear-gradient(to right, #00C9FF, #92FE9D, #fdfd00);
     border-radius: 2px;
   }
+  .section-title.center .gradient-line {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title.left .gradient-line {
+  margin-left: 0;
+}
+
+.section-title.right .gradient-line {
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .gradient-line {
+    width: 120px;
+  }
+}
   </style>

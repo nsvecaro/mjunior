@@ -1,5 +1,7 @@
 <template>
     <div class="slideshow-container">
+        <div class="circle-decoration top-right"></div>
+
         <div class="image-wrapper">
             <img :src="images[currentIndex].src" alt="Slika" class="slideshow-image" />
 
@@ -16,6 +18,7 @@
             <span v-for="(img, i) in images" :key="i" class="dot" :class="{ active: i === currentIndex }"
                 @click="goToSlide(i)"></span>
         </div>
+        <div class="circle-decoration bottom-left"></div>
     </div>
 </template>
 
@@ -75,6 +78,7 @@ function goToSlide(index) {
 
 <style scoped>
 .slideshow-container {
+    position: relative;
     border-radius: 20px;
     background: #f4f4f4;
     padding: 30px;
@@ -82,9 +86,31 @@ function goToSlide(index) {
     max-width: 720px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
+.circle-decoration.top-right {
+  position: absolute;
+  top: -30px;
+  right: -10px;
+  width: 100px;
+  height: 100px;
+  background: #fff000; 
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.circle-decoration.bottom-left {
+  position: absolute;
+  bottom: -30px;
+  left: -20px;
+  width: 70px;
+  height: 70px;
+  background: #7aa9ff;
+  border-radius: 50%;
+  z-index: -1;
+}
 
 .image-wrapper {
     position: relative;
+    z-index: 0;
     overflow: hidden;
     border-radius: 20px;
     aspect-ratio: 16 / 9;
@@ -95,12 +121,13 @@ function goToSlide(index) {
     height: 100%;
     object-fit: cover;
     display: block;
+    z-index: 1;
 }
 
 .label-box {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 10px;
+    left: 10px;
     background: white;
     padding: 12px 16px;
     border-radius: 10px;
@@ -142,5 +169,40 @@ function goToSlide(index) {
 
 .dot.active {
     background: #007BFF;
+}
+
+
+@media (max-width: 768px) {
+  .slideshow-container {
+    padding: 16px;
+    max-width: 100%;
+  }
+
+  .label-box {
+    flex-direction: column;
+    align-items: flex-start;
+    bottom: 12px;
+    left: 12px;
+    padding: 10px 12px;
+    width: calc(100% - 24px);
+  }
+
+  .label-title {
+    font-size: 0.9rem;
+  }
+
+  .label-subtitle {
+    font-size: 0.75rem;
+  }
+
+  .dots {
+    margin-top: 8px;
+    gap: 4px;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
 }
 </style>

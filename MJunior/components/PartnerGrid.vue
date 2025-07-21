@@ -53,4 +53,36 @@
   .logo:hover {
     opacity: 0.5;
   }
+
+  @media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .logo {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+}
   </style>

@@ -21,16 +21,16 @@
 <style scoped>
 .stats {
     height: 100%;
-    min-height: 15vh;
+    padding: 2rem 1rem;
     display: flex;
-    gap: 25rem;
+    gap: clamp(2rem, 10vw, 12rem);
     margin-top: 3rem;
     width: 100%;
     background: linear-gradient(to right, #ffff73, #a3fbac, #76e0fe);
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
+    
 }
 
 .stat {
@@ -46,5 +46,20 @@
 
 .stat-label {
     font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+  .stat-number{
+    font-size: 1.4rem;
+  }
+  .stat-label {
+    font-size: 0.8rem;
+  }
+
 }
 </style>

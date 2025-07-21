@@ -60,7 +60,9 @@
 
 .buttons{
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 .blue-button {
@@ -126,5 +128,39 @@
 
 
 
+
+@media (max-width: 768px) {
+  .main-text h2 {
+    font-size: 2.2rem;
+  }
+
+  .main-text h1 {
+    font-size: 1.1rem;
+  }
+
+  .main-text p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .stats-wrapper {
+    width: 100%;
+    align-items: center;
+  }
+
+  .gradient-line {
+    width: 100%;
+  }
+}
 
 </style>

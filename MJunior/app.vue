@@ -1,11 +1,30 @@
 <template>
-    
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
 </template>
 
 <style>
 html, body, * {
   font-family: 'Lexend', sans-serif !important;
 }
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: #e6e7e8;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 
 </style>

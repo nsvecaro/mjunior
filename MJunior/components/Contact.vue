@@ -18,7 +18,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    gap: 20rem;
+    gap: clamp(2rem, 8vw, 10rem);
     padding: 2rem;
     margin-top: 10vh;
     
