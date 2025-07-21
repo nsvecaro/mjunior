@@ -1,7 +1,7 @@
 <template>
     <header class="header">
         <div class="logo">
-            <img src="/images/Pokelogo.png" alt="Moding Junior Logo" />
+            <img src="/images/ModingJuniorLogo.png" alt="Moding Junior Logo" />
         </div>
 
         <nav class="nav">

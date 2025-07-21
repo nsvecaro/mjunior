@@ -27,41 +27,38 @@ function submitForm() {
 <style scoped>
 .kontakt-form {
   background: #e8f0ff;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  max-width: 400px;
+  gap: 1.2rem;
+  max-width: 550px;
   width: 100%;
 }
 
 .kontakt-form input,
 .kontakt-form textarea {
-  padding: 0.75rem 1rem;
+  padding: 1rem 1.2rem;
   border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
+  border-radius: 7px;
+  font-size: 1.025rem;
+  line-height: 1.5;
 }
 
 .kontakt-form textarea {
-  padding: 0.75rem 1rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
   resize: vertical;
-  min-height: 120px;
-  max-height: 300px;
+  min-height: 140px;
+  max-height: 350px;
 }
 
 .kontakt-form button {
   background-color: #246bfb;
   color: white;
-  font-weight: 300;
-  font-size: 1rem;
-  padding: 0.75rem 1rem;
+  font-weight: 400;
+  font-size: 1.05rem;
+  padding: 0.9rem 1.2rem;
   border: none;
-  border-radius: 6px;
+  border-radius: 7px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
@@ -80,20 +77,27 @@ function submitForm() {
 .kontakt-form textarea:hover {
   border-color: #999;
 }
-.kontakt-form input,
-.kontakt-form textarea {
-  transition: border 0.2s ease;
-}
+
 .kontakt-form input::placeholder,
 .kontakt-form textarea::placeholder {
   color: #888;
 }
 
-
 @media (max-width: 480px) {
   .kontakt-form {
-    padding: 1rem;
+    padding: 1.2rem;
     font-size: 0.95rem;
+  }
+
+  .kontakt-form input,
+  .kontakt-form textarea {
+    font-size: 1rem;
+    padding: 0.9rem 1rem;
+  }
+
+  .kontakt-form button {
+    font-size: 1rem;
+    padding: 0.85rem 1.1rem;
   }
 }
 

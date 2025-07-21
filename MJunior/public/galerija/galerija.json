@@ -1,0 +1,26 @@
+[
+    {
+      "id": "ina",
+      "label": "Ina",
+      "folder": "Ina",
+      "images": ["InaKrizevci1.webp", "InaKrizevci2.webp", "InaKrizevci3.webp", "InaKrizevci4.webp", "InaKrizevci5.webp", "InaRebri.webp", "InaPodloga.webp"] 
+    },
+    {
+        "id": "ina2",
+        "label": "Ina2",
+        "folder": "Ina",
+        "images": ["InaKrizevci1.webp", "InaKrizevci2.webp", "InaKrizevci3.webp", "InaKrizevci4.webp", "InaKrizevci5.webp", "InaRebri.webp", "InaPodloga.webp"] 
+      },
+      {
+        "id": "ina3",
+        "label": "In3",
+        "folder": "Ina",
+        "images": ["InaKrizevci1.webp", "InaKrizevci2.webp", "InaKrizevci3.webp", "InaKrizevci4.webp", "InaKrizevci5.webp", "InaRebri.webp", "InaPodloga.webp"] 
+      },
+      {
+        "id": "ina4",
+        "label": "Ina4",
+        "folder": "Ina",
+        "images": ["InaKrizevci1.webp", "InaKrizevci2.webp", "InaKrizevci3.webp", "InaKrizevci4.webp", "InaKrizevci5.webp", "InaRebri.webp", "InaPodloga.webp"] 
+      }
+  ]

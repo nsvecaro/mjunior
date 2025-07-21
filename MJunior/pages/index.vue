@@ -17,7 +17,7 @@
     <section id="partners" class="section-with-wave">
         <div class="decorative-line-top">
             <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
-                <path d="M0,60 C240,-40 1200,160 1440,60" stroke="#246bfb" stroke-width="4" fill="none" />
+                <path d="M0,60 C240,-40 1200,160 1440,60" stroke="#a4c1fd" stroke-width="4" fill="none" />
             </svg>
         </div>
         <SectionTitle title="Partneri" subtitle="Naši partneri - suradnje koje govore više od riječi" />
@@ -25,7 +25,7 @@
         <PartnerGrid />
         <div class="decorative-line">
   <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
-    <path d="M0,0 C300,150 900,-50 1440,60" stroke="#86adfd" stroke-width="4" fill="none" />
+    <path d="M0,0 C300,150 900,-50 1440,60" stroke="#a4c1fd" stroke-width="4" fill="none" />
   </svg>
 </div>
     </section>
