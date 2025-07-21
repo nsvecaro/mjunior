@@ -1,6 +1,6 @@
 <template>
     <div class="main-text">
-        <h2>MODING JUNIOR</h2>
+      <h2><span class="moding">MODING</span> <span class="junior">JUNIOR</span></h2>
         <h1>Čelične konstrukcije • Proizvodnja • Montaža</h1>
         <p>Ferrocentar - trgovina crnom i obojenom metalurgijom te proizvodnja i montaža čeličnih konstrukcija.</p>
     </div>
@@ -41,15 +41,25 @@
     text-align: left;
 }
 
+.moding {
+  color: inherit;
+}
+
+.junior {
+  color: #2463EB;
+}
+
+.main-text h1{
+  color: #2463EB;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
 .main-text h2 {
     font-size: 4rem;
     width: 100%;
     max-width: 500px;
     font-weight: 500;
-}
-
-.main-text h1 {
-    font-size: 1.4rem;
 }
 
 .main-text p {

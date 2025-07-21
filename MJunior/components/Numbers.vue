@@ -26,7 +26,7 @@
     gap: clamp(2rem, 10vw, 12rem);
     margin-top: 3rem;
     width: 100%;
-    background: linear-gradient(to right, #ffff73, #a3fbac, #76e0fe);
+    background: linear-gradient(to right, #ffff73, #a3fbac, #76b1fe);
     flex-direction: row;
     justify-content: center;
     align-items: center;
