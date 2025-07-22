@@ -26,7 +26,7 @@
     gap: clamp(2rem, 10vw, 12rem);
     margin-top: 3rem;
     width: 100%;
-    background: linear-gradient(to right, #ffff73, #a3fbac, #76b1fe);
+    background: linear-gradient(145deg, #ffff00a7, #2686c1a7);
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -42,20 +42,21 @@
     color: #2463EB;
     font-weight: bold;
 
+
 }
 
 .stat-label {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 @media (max-width: 768px) {
   .stats {
     flex-direction: row;
-    gap: 2rem;
+    gap: 3rem;
     padding: 2rem 1rem;
   }
   .stat-number{
-    font-size: 1.4rem;
+    font-size: 2.2rem;
   }
   .stat-label {
     font-size: 0.8rem;

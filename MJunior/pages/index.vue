@@ -3,7 +3,7 @@
     <section id="hero">
         <div class="container">
             <div class="left">
-                <hero-text />
+                <Hero-text />
             </div>
             <div class="right">
                 <hero-slideshow />
@@ -77,7 +77,7 @@
 
 .decorative-line-top {
     position: absolute;
-    top: 20px;
+    top: 80px;
     left: 0;
     width: 100%;
     pointer-events: none;
@@ -91,7 +91,7 @@
 
 .wave-bottom {
     position: absolute;
-    bottom: -1px;
+    bottom: -50px;
     left: 0;
     width: 100%;
     height: 100px;
@@ -106,8 +106,7 @@
 
 .decorative-line {
     position: absolute;
-    bottom: 20px;
-    /* koliko visoko od dna želiš liniju */
+    bottom: -10px;
     left: 0;
     width: 100%;
     pointer-events: none;
@@ -128,5 +127,18 @@
         flex-direction: column;
         gap: 2rem;
     }
+
+    #contact{
+        margin-bottom: 4rem;
+    }
+
+    .decorative-line-top{
+        top: 95px;
+    }
+    .decorative-line {
+        bottom: -40px;
+    }
 }
+
+
 </style>

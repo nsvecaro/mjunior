@@ -85,7 +85,7 @@ function goToSlide(index) {
     padding: 30px;
     width: 100%;
     max-width: 720px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 .circle-decoration.top-right {
   position: absolute;
@@ -127,8 +127,8 @@ function goToSlide(index) {
 
 .label-box {
     position: absolute;
-    min-width: 325px;
-    max-width: 100%;
+    max-width: 325px;
+    width: 100%;
     bottom: 10px;
     left: 10px;
     background: white;
@@ -137,7 +137,8 @@ function goToSlide(index) {
     display: flex;
     gap: 10px;
     align-items: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.677);
+    backdrop-filter: blur(10px);
 }
 
 .icon {
@@ -174,24 +175,36 @@ function goToSlide(index) {
     background: #007BFF;
 }
 
+/* Responsive Styles */
 
 @media (max-width: 768px) {
   .slideshow-container {
     padding: 16px;
     max-width: 100%;
+    border-radius: 14px;
+  }
+
+  .image-wrapper {
+    aspect-ratio: 16 / 9;
+    border-radius: 12px;
   }
 
   .label-box {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     bottom: 12px;
     left: 12px;
-    padding: 10px 12px;
-    width: calc(100% - 24px);
+    padding: 10px 30px;
+    width: auto;
+    max-width: 300px;
+    gap: 0px;
+    background: rgba(255, 255, 255, 0.677);
+    backdrop-filter: blur(10px);
   }
 
   .label-title {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .label-subtitle {
@@ -199,8 +212,8 @@ function goToSlide(index) {
   }
 
   .dots {
-    margin-top: 8px;
-    gap: 4px;
+    margin-top: 10px;
+    gap: 5px;
   }
 
   .dot {

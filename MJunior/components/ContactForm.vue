@@ -34,6 +34,7 @@ function submitForm() {
   gap: 1.2rem;
   max-width: 550px;
   width: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .kontakt-form input,
@@ -80,7 +81,7 @@ function submitForm() {
 
 .kontakt-form input::placeholder,
 .kontakt-form textarea::placeholder {
-  color: #888;
+  color: #8888888a;
 }
 
 @media (max-width: 480px) {

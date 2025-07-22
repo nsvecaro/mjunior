@@ -1,44 +1,43 @@
 <template>
-    <div class="main-text">
-      <h2><span class="moding">MODING</span> <span class="junior">JUNIOR</span></h2>
-        <h1>Čelične konstrukcije • Proizvodnja • Montaža</h1>
-        <p>Ferrocentar - trgovina crnom i obojenom metalurgijom te proizvodnja i montaža čeličnih konstrukcija.</p>
-    </div>
-    <div class="buttons">
-        <Hero-Button buttonText="Naši radovi →" customClass="blue-button" />
-        <Hero-Button buttonText="Kontakt" customClass="yellow-button" />
-    </div>
-  
-    <div class="stats-section">
-  <div class="stats-wrapper">
-    <div class="gradient-line"></div>
-    <div class="stats">
-      <div class="stat">
-        <div class="stat-number">30+</div>
-        <div class="stat-label">Godina</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number">750+</div>
-        <div class="stat-label">Projekata</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number">60 000+</div>
-        <div class="stat-label">Zadovoljnih klijenata</div>
+  <div class="main-text">
+    <h2><span class="moding">MODING</span> <span class="junior">JUNIOR</span></h2>
+    <h1>Čelične konstrukcije • Proizvodnja • Montaža</h1>
+    <p>Ferrocentar - trgovina crnom i obojenom metalurgijom te proizvodnja i montaža čeličnih konstrukcija.</p>
+  </div>
+  <div class="buttons">
+    <Hero-Button buttonText="Naši radovi →" customClass="blue-button" to="/galerija" />
+    <Hero-Button buttonText="Kontakt" customClass="yellow-button" to="#contact" />
+  </div>
+
+  <div class="stats-section">
+    <div class="stats-wrapper">
+      <div class="gradient-line"></div>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-number">30+</div>
+          <div class="stat-label">Godina</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">750+</div>
+          <div class="stat-label">Projekata</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">60 000+</div>
+          <div class="stat-label">Zadovoljnih klijenata</div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-    </template>
+</template>
 
-    <script>
+<script>
 
-    </script>
+</script>
 
 
 <style scoped>
-
 .main-text {
-    text-align: left;
+  text-align: left;
 }
 
 .moding {
@@ -49,51 +48,52 @@
   color: #2463EB;
 }
 
-.main-text h1{
+.main-text h1 {
   color: #2463EB;
   font-weight: 400;
   font-size: 1.4rem;
 }
 
 .main-text h2 {
-    font-size: 4rem;
-    width: 100%;
-    max-width: 500px;
-    font-weight: 500;
+  font-size: 4rem;
+  width: 100%;
+  max-width: 500px;
+  font-weight: 500;
 }
 
 .main-text p {
-    font-size: 1.3rem;
-    width: 100%;
-    max-width: 300px;
+  font-size: 1.3rem;
+  width: 100%;
+  max-width: 300px;
 }
 
-.buttons{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 1.5rem;
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
 .blue-button {
-    background-color: #2463EB;
-    color: white;
-    border: none;
-    cursor: pointer;
+  background-color: #2463EB;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
 .blue-button:hover {
-    background-color: #1d4aab;
+  background-color: #1d4aab;
 }
 
-.yellow-button{
-    background-color: #ffc107;
-    color: black;
-    border: none;
-    cursor: pointer;
+.yellow-button {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  cursor: pointer;
 }
+
 .yellow-button:hover {
-    background-color: #e0a800;
+  background-color: #e0a800;
 }
 
 .gradient-line {
@@ -129,7 +129,7 @@
 .stat-number {
   font-size: 1.5rem;
   font-weight: bold;
-  
+
 }
 
 .stat-label {
@@ -138,14 +138,23 @@
 
 
 
-
 @media (max-width: 768px) {
+
+  .main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 10px 20px;
+  }
   .main-text h2 {
-    font-size: 2.2rem;
+    font-size: 4rem;
+    margin-bottom: 0rem;
   }
 
   .main-text h1 {
     font-size: 1.1rem;
+    margin-top: 1rem;
   }
 
   .main-text p {
@@ -154,23 +163,29 @@
   }
 
   .buttons {
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.6rem;
+    padding: 10px 30px;
   }
 
-  .stats {
-    flex-direction: column;
-    gap: 1rem;
+  .buttons :deep(button) {
+    flex: 1 1 auto;
+    min-width: calc(50% - 0.5rem);
   }
 
   .stats-wrapper {
+    padding: 0px 30px;
     width: 100%;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+
   }
 
   .gradient-line {
     width: 100%;
   }
 }
-
 </style>

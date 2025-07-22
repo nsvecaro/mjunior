@@ -1,5 +1,7 @@
 <template>
-    <button class="hero-button" :class="customClass">{{ buttonText }}</button>
+    <a :href="to" class="hero-button" :class="customClass">
+        {{ buttonText }}
+    </a>
 </template>
 
 <script>
@@ -10,9 +12,13 @@ export default {
             type: String,
             required: true,
         },
-        customClass:{
+        customClass: {
             type: String,
             default: "",
+        },
+        to: {
+            type: String,
+            required: true,
         },
     },
 };

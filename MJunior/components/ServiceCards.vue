@@ -102,7 +102,7 @@ const services = [
   .cards-grid {
     grid-template-columns: 1fr;
     gap: 1.8rem;
-    padding: 1.5rem;
+    padding: 1.5rem 5rem;
   }
 }
 </style>
