@@ -99,6 +99,41 @@ onMounted(async () => {
   .masonry {
     column-count: 2;
   }
+  .masonry img {
+    margin-bottom: 1rem;
+  }
+  .galerija-wrapper {
+    flex-direction: column;
+    padding: 100px 20px 20px 20px;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 0.5rem 0;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    overflow-x: auto;
+  }
+
+  .sidebar ul {
+    display: flex;
+    gap: 1.2rem;
+    padding: 0 1rem;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .sidebar li {
+    font-size: 1rem;
+    padding: 0.6rem 0;
+    flex: 0 0 auto;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .gallery-content {
+    padding: 1rem 0;
+  }
 }
 
 @media (max-width: 480px) {

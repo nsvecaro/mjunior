@@ -28,13 +28,13 @@
       </div>
     </div>
 
-    <div class="footer-bottom">
+    <div class="footer-bottom">x
       <div class="bottom-left">
         <p><strong>MODING JUNIOR d.o.o.</strong> za proizvodnju, građevinarstvo, unutarnju i vanjsku trgovinu.<br />OIB: 25897440119</p>
         <nav class="policy-links">
           <a href="#">Terms & Conditions</a>
           <a href="#">Privacy Policy</a>
-          <a href="#">Cookies</a>
+          <a href="#">Cookies</a>x
         </nav>
         <p class="copyright">© 2025. Moding Junior d.o.o. Sva Prava Zadržana.</p>
       </div>
@@ -156,6 +156,7 @@ margin-left: auto;
 @media (max-width: 600px) {
 .footer-top {
   grid-template-columns: 1fr;
+  border-bottom: 1px solid #ccc;
 }
 
 .nav-links {
@@ -170,7 +171,60 @@ margin-left: auto;
 
 .footer-bottom {
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start;;
 }
+.footer {
+  padding: 2rem 1rem;
+}
+
+.column{
+  gap: 1rem;
+}
+
+.column h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0rem;
+}
+
+.column h3 {
+  font-size: 1.1rem;
+  padding: 10px 0 0 0;
+}
+
+.column p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.nav-links a {
+  font-size: 0.9rem;
+}
+
+.policy-links {
+  font-size: 0.85rem;
+}
+
+.logos img {
+  width: 100px;
+}
+.footer-top {
+  row-gap: 2rem;
+}
+
+.footer-bottom {
+  margin-top: 0rem;
+  gap: 0;
+}
+.bottom-left{
+  font-size: 0.8rem;
+}
+.bottom-right{
+  font-size: 0.6rem;
+}
+}
+@media (max-width: 600px) {
+  .footer-bottom {
+    padding-top: 1.5rem;
+  }
 }
 </style>
