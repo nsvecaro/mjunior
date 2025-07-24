@@ -40,7 +40,7 @@ const closeMenu = () => (isOpen.value = false)
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 120px;
+  padding: 1.2rem 130px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   font-family: 'Lexend', sans-serif;
   background: rgba(255, 255, 255, 0.85);

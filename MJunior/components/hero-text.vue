@@ -57,7 +57,7 @@
 .main-text h2 {
   font-size: 4rem;
   width: 100%;
-  max-width: 500px;
+  max-width: 80%;
   font-weight: 500;
 }
 
@@ -79,6 +79,7 @@
   color: white;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .blue-button:hover {
@@ -90,6 +91,7 @@
   color: black;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .yellow-button:hover {

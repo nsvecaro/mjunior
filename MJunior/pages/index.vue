@@ -1,19 +1,24 @@
+<script setup lang="ts">
+import Reveal from '~/components/Reveal.vue';
+
+</script>
+
 <template>
 
     <section id="hero">
         <div class="container">
-            <div class="left">
-                <Hero-text />
-            </div>
-            <div class="right">
-                <hero-slideshow />
+            <div class="hero-container">
+                <div class="left">
+                    <Hero-text />
+                </div>
+                <div class="right">
+                    <hero-slideshow />
+                </div>
+
             </div>
 
         </div>
-
-
     </section>
-
     <section id="partners" class="section-with-wave">
         <div class="decorative-line-top">
             <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
@@ -21,19 +26,26 @@
             </svg>
         </div>
         <SectionTitle title="Partneri" subtitle="Naši partneri - suradnje koje govore više od riječi" />
-
-        <PartnerGrid />
+        <div class="container">
+            <Reveal>
+                <PartnerGrid />
+            </Reveal>
+        </div>
         <div class="decorative-line">
-  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
-    <path d="M0,0 C300,150 900,-50 1440,60" stroke="#a4c1fd" stroke-width="4" fill="none" />
-  </svg>
-</div>
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path d="M0,0 C300,150 900,-50 1440,60" stroke="#a4c1fd" stroke-width="4" fill="none" />
+            </svg>
+        </div>
     </section>
 
     <section id="offers">
-        <SectionTitle title="Što nudimo"
-            subtitle="Sve što vam treba za gradnju i obradu metala - brzo, precizno i pouzdano" />
-        <ServiceCards />
+        <Reveal>
+            <SectionTitle title="Što nudimo"
+                subtitle="Sve što vam treba za gradnju i obradu metala - brzo, precizno i pouzdano" />
+        </Reveal>
+        <Reveal>
+            <ServiceCards />
+        </Reveal>
     </section>
 
     <section id="numbers">
@@ -42,12 +54,20 @@
     </section>
 
     <section id="contact">
-        <SectionTitle title="Kontaktirajte nas"
-            subtitle="Spremni smo odgovoriti na sva vaša pitanja i pomoći vam u vašim projektima" />
-        <Contact />
+        <reveal>
+            <SectionTitle title="Kontaktirajte nas"
+                subtitle="Spremni smo odgovoriti na sva vaša pitanja i pomoći vam u vašim projektima" />
+        </reveal>
+            <div class="container">
+                <Reveal>
+                <Contact />
+            </Reveal>
+            </div>
+       
     </section>
 
 </template>
+
 
 <style scoped>
 #partners,
@@ -56,18 +76,36 @@
     scroll-margin-top: 110px;
 }
 
-#hero {
-    margin-top: 30px;
-    padding: 80px 120px 0px 120px;
-    height: 100%;
-    min-height: 90vh;
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.container {
+#hero {
+    margin-top: 30px;
+    padding: 80px 120px 30px 120px;
+    height: 100%;
+    position: relative;
+}
+
+.hero-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.left {
+    box-sizing: border-box;
+    max-width: 50%;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50%;
 }
 
 .section-with-wave {
@@ -128,17 +166,16 @@
         gap: 2rem;
     }
 
-    #contact{
+    #contact {
         margin-bottom: 4rem;
     }
 
-    .decorative-line-top{
+    .decorative-line-top {
         top: 95px;
     }
+
     .decorative-line {
         bottom: -40px;
     }
 }
-
-
 </style>

@@ -1,22 +1,62 @@
 <template>
-
     <div class="stats">
-        <div class="stat">
-            <div class="stat-number">30+</div>
-            <div class="stat-label">Godina</div>
-        </div>
-        <div class="stat">
-            <div class="stat-number">750+</div>
-            <div class="stat-label">Projekata</div>
-        </div>
-        <div class="stat">
-            <div class="stat-number">60 000+</div>
-            <div class="stat-label">Zadovoljnih klijenata</div>
-        </div>
+      <div class="stat" v-for="(item, index) in stats" :key="index">
+        <div class="stat-number" ref="statNumbers">{{ item.current }}</div>
+        <div class="stat-label">{{ item.label }}</div>
+      </div>
     </div>
+  </template>
 
+<script setup>
+import { ref, onMounted, nextTick } from 'vue'
 
-</template>
+const stats = ref([
+  { target: 30, label: 'Godina', current: 0 },
+  { target: 750, label: 'Projekata', current: 0 },
+  { target: 60000, label: 'Zadovoljnih klijenata', current: 0 },
+])
+
+const statNumbers = ref([])
+
+onMounted(async () => {
+  await nextTick()
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        animateNumbers()
+        observer.disconnect()
+      }
+    })
+  }, {
+    threshold: 0.5
+  })
+
+  if (statNumbers.value.length) {
+    observer.observe(statNumbers.value[0]) // možeš bilo koji jer su svi u viewportu skupa
+  }
+})
+
+function animateNumbers() {
+  stats.value.forEach((stat, i) => {
+    const duration = 2000
+    const start = performance.now()
+
+    function update(now) {
+      const progress = Math.min((now - start) / duration, 1)
+      stat.current = Math.floor(stat.target * progress)
+
+      if (progress < 1) {
+        requestAnimationFrame(update)
+      } else {
+        stat.current = stat.target.toLocaleString()
+      }
+    }
+
+    requestAnimationFrame(update)
+  })
+}
+</script>
 
 <style scoped>
 .stats {

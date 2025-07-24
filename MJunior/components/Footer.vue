@@ -1,5 +1,6 @@
 <template>
   <footer class="footer">
+    <div class="container">
     <div class="footer-top">
       <div class="column left">
         <h1>Moding Junior</h1>
@@ -28,24 +29,32 @@
       </div>
     </div>
 
-    <div class="footer-bottom">x
+    <div class="footer-bottom">
       <div class="bottom-left">
         <p><strong>MODING JUNIOR d.o.o.</strong> za proizvodnju, građevinarstvo, unutarnju i vanjsku trgovinu.<br />OIB: 25897440119</p>
-        <nav class="policy-links">
-          <a href="#">Terms & Conditions</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Cookies</a>x
-        </nav>
         <p class="copyright">© 2025. Moding Junior d.o.o. Sva Prava Zadržana.</p>
       </div>
       <div class="bottom-right">
-        <p>Designed & coded by <strong>Scope</strong></p>
+        <nav class="policy-links">
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies</a>
+        </nav>
       </div>
     </div>
+  </div>
   </footer>
 </template>
 
 <style scoped>
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .footer {
 background: #f6f6f6;
 padding: 3rem 2rem;
