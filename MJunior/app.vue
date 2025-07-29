@@ -1,7 +1,7 @@
 <template>
-    <NuxtLayout>
+  <NuxtLayout>
       <NuxtPage />
-    </NuxtLayout>
+  </NuxtLayout>
 </template>
 
 <style>
@@ -12,7 +12,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: #f0f0f0;
+  background: #fafeff;
 }
 
 html, body {

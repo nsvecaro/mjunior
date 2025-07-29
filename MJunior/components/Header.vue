@@ -145,7 +145,7 @@ const closeMenu = () => (isOpen.value = false)
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 830px) {
   .burger {
     display: block;
   }

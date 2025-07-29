@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import Reveal from '~/components/Reveal.vue';
-
-</script>
-
 <template>
 
     <section id="hero">
@@ -88,6 +83,8 @@ import Reveal from '~/components/Reveal.vue';
     padding: 80px 120px 30px 120px;
     height: 100%;
     position: relative;
+    background-color: rgb(255, 255, 248);
+    border-radius: 30px;
 }
 
 .hero-container {
@@ -111,6 +108,13 @@ import Reveal from '~/components/Reveal.vue';
 .section-with-wave {
     position: relative;
     overflow: hidden;
+    
+}
+
+#offers{
+    padding: 50px 40px;
+    background-color: rgb(255, 255, 248);
+    border-radius: 50px;
 }
 
 .decorative-line-top {
@@ -156,14 +160,57 @@ import Reveal from '~/components/Reveal.vue';
     height: 100px;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 480px) {
     #hero {
-        padding: 40px 20px 0px 20px;
+        padding: 30px 15px;
     }
 
-    .container {
+    .hero-container {
         flex-direction: column;
-        gap: 2rem;
+        align-items: center;
+    }
+
+    .left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .decorative-line-top {
+        top: 90px;
+    }
+
+    .decorative-line {
+        bottom: -30px;
+    }
+
+    #contact {
+        margin-bottom: 4rem;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #hero {
+        padding: 40px 20px;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .right {
+        display: none;
     }
 
     #contact {
@@ -176,6 +223,46 @@ import Reveal from '~/components/Reveal.vue';
 
     .decorative-line {
         bottom: -40px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hero {
+        padding: 50px 40px 0px 40px;
+    }
+
+    .left, .right {
+        max-width: 50%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .hero-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #hero {
+        padding: 80px 120px 30px 120px;
+    }
+
+    .left {
+        max-width: 50%;
+    }
+
+    .right {
+        display: flex;
+        justify-content: flex-end;
+        max-width: 50%;
     }
 }
 </style>

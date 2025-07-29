@@ -92,12 +92,12 @@ function submitForm() {
 
   .kontakt-form input,
   .kontakt-form textarea {
-    font-size: 1rem;
-    padding: 0.9rem 1rem;
+    font-size: 0.7rem;
+    padding: 0.9rem 0.5rem;
   }
 
   .kontakt-form button {
-    font-size: 1rem;
+    font-size: 0.6rem;
     padding: 0.85rem 1.1rem;
   }
 }

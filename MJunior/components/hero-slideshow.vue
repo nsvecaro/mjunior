@@ -175,50 +175,5 @@ function goToSlide(index) {
     background: #007BFF;
 }
 
-/* Responsive Styles */
 
-@media (max-width: 768px) {
-  .slideshow-container {
-    padding: 16px;
-    max-width: 100%;
-    border-radius: 14px;
-  }
-
-  .image-wrapper {
-    aspect-ratio: 16 / 9;
-    border-radius: 12px;
-  }
-
-  .label-box {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    bottom: 12px;
-    left: 12px;
-    padding: 10px 30px;
-    width: auto;
-    max-width: 300px;
-    gap: 0px;
-    background: rgba(255, 255, 255, 0.677);
-    backdrop-filter: blur(10px);
-  }
-
-  .label-title {
-    font-size: 0.95rem;
-  }
-
-  .label-subtitle {
-    font-size: 0.75rem;
-  }
-
-  .dots {
-    margin-top: 10px;
-    gap: 5px;
-  }
-
-  .dot {
-    width: 8px;
-    height: 8px;
-  }
-}
 </style>

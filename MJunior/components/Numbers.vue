@@ -64,7 +64,7 @@ function animateNumbers() {
     padding: 2rem 1rem;
     display: flex;
     gap: clamp(2rem, 10vw, 12rem);
-    margin-top: 3rem;
+    margin-top: 0rem;
     width: 100%;
     background: linear-gradient(145deg, #ffff00a7, #2686c1a7);
     flex-direction: row;

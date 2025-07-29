@@ -5,7 +5,7 @@
     <p>Ferrocentar - trgovina crnom i obojenom metalurgijom te proizvodnja i montaža čeličnih konstrukcija.</p>
   </div>
   <div class="buttons">
-    <Hero-Button buttonText="Naši radovi →" customClass="blue-button" to="/galerija" />
+    <Hero-Button buttonText="Naša ponuda →" customClass="blue-button" to="/galerija" />
     <Hero-Button buttonText="Kontakt" customClass="yellow-button" to="#contact" />
   </div>
 
@@ -140,13 +140,13 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .main-text{
     display: flex;
     flex-direction: column;
-    align-items: left;
-    text-align: left;
+    align-items: center;
+    text-align: center;
     padding: 10px 20px;
   }
   .main-text h2 {
@@ -166,7 +166,8 @@
 
   .buttons {
     flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
     margin-top: 0.6rem;
     padding: 10px 30px;
@@ -188,6 +189,24 @@
 
   .gradient-line {
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .main-text h2 {
+    font-size: 3.5rem;
+    margin-bottom: 0rem;
+    text-align: left;
+  }
+  .main-text h1 {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    text-align: left;
   }
 }
 </style>

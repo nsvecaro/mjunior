@@ -44,7 +44,8 @@ onMounted(async () => {
   width: 200px;
   padding: 1rem;
   overflow-y: auto;
-  border-right: 1px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-radius: 50px;
 }
 
 .sidebar ul {
@@ -57,11 +58,17 @@ onMounted(async () => {
   padding: 0.75rem 0;
   cursor: pointer;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+}
+
+.sidebar li:hover {
+  color: #6d6d6d;
+  transition: color 0.3s ease;
 }
 
 .sidebar li.active {
   font-weight: 700;
+  font-size: 1.4rem;
 }
 
 .gallery-content {
