@@ -72,7 +72,7 @@ const services = [
 
 .icon {
   color: #246bfb;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 .icon svg {
@@ -100,9 +100,13 @@ const services = [
 
 @media (max-width: 600px) {
   .cards-grid {
-    grid-template-columns: 1fr;
-    gap: 1.8rem;
-    padding: 1.5rem 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    padding: 1rem 1.2rem;
+  }
+  .icon{
+    width: 10px;
+    height: auto;
   }
 }
 </style>

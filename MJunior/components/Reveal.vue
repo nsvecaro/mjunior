@@ -25,15 +25,15 @@
   </script>
   
   <style scoped>
-  .reveal {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s ease-out;
-    will-change: transform, opacity;
-  }
-  
-  .reveal.active {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.reveal {
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  will-change: opacity;
+  min-height: 200px;
+}
+
+.reveal.active {
+  opacity: 1;
+  min-height: auto;
+}
   </style>

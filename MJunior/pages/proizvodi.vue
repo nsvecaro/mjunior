@@ -266,80 +266,53 @@ function selectSubcategory(sub) {
 }
 
 
-@media (max-width: 1024px) {
-    #proizvodi {
-        padding: 60px 40px 30px 40px;
-    }
+@media (max-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+  }
 
-    .container {
-        flex-direction: column;
-        gap: 1rem;
-    }
+  .sidebar {
+    width: 120px;
+    flex-shrink: 0;
+    padding-right: 0.5rem;
+    border-right: 1px solid #ccc;
+  }
 
-    .sidebar {
-        width: 100%;
-        border-right: none;
-        border-bottom: 1px solid #ccc;
-        padding-bottom: 1rem;
-        padding-right: 0;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
+  .sidebar button {
+    font-size: 0.85rem;
+    padding: 0.2rem 0;
+  }
 
-    .sidebar ul {
-        display: flex;
-        gap: 1rem;
-        flex-direction: row;
-    }
+  .sidebar ul {
+    gap: 0.3rem;
+  }
 
-    .sidebar>ul>li {
-        display: inline-block;
-        margin-bottom: 0;
-    }
+  .sidebar ul ul {
+    padding-left: 0.5rem;
+  }
 
-    .sidebar ul ul {
-        display: block;
-        padding-left: 1rem;
-        margin-top: 0.5rem;
-    }
+  .content {
+    flex-grow: 1;
+    width: 100%;
+  }
 
-    .sidebar button {
-        white-space: nowrap;
-        font-size: 1rem;
-    }
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.75rem;
+  }
 
-    .page-title {
-        font-size: 1.5rem;
-        text-align: center;
-    }
+  .product-card {
+    min-width: 100%;
+    max-width: 100%;
+  }
 
-    .groups-container {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .group {
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* MOBITEL: horizontalni scroll */
-    .products-grid {
-        display: flex;
-        overflow-x: scroll;
-        gap: 1rem;
-        padding-bottom: 0.5rem;
-    }
-
-    .products-grid::-webkit-scrollbar {
-        display: none;
-    }
-
-    .product-card {
-        min-width: 220px;
-        max-width: 220px;
-    }
+  .page-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
 }
 
 @media (max-width: 600px) {

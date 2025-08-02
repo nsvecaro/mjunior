@@ -2,7 +2,7 @@
   <header class="header">
     <div class="logo">
       <NuxtLink to="/">
-        <img src="/images/ModingJuniorLogo.png" alt="Moding Junior Logo" />
+        <img src="/images/ModingJuniorLogo.webp" alt="Moding Junior Logo" width="200" height="60" />
       </NuxtLink>
     </div>
 
@@ -13,8 +13,8 @@
     <nav class="nav" :class="{ open: isOpen }">
       <ul class="nav-links">
         <li><a href="/#hero" @click="closeMenu">Početna</a></li>
-        <li><a href="/#partners" @click="closeMenu">Partneri</a></li>
-        <li><a href="/#offers" @click="closeMenu">Ponuda</a></li>
+        
+        <li><a href="/proizvodi" @click="closeMenu">Ponuda</a></li>
       </ul>
       <a href="/#contact" class="cta-button" @click="closeMenu">Kontaktirajte nas</a>
     </nav>
@@ -48,7 +48,7 @@ const closeMenu = () => (isOpen.value = false)
 }
 
 .logo img {
-  height: 60px;
+  height: 55px;
   max-height: 80px;
   width: auto;
   object-fit: contain;
@@ -107,11 +107,11 @@ const closeMenu = () => (isOpen.value = false)
 .burger::after {
   content: '';
   position: absolute;
-  left: 0;
+  left: 1;
   width: 100%;
   height: 3px;
   background-color: black;
-  transition: all 0.4s ease;
+  transition: all 0.5s ease;
   border-radius: 2px;
 }
 
@@ -135,13 +135,13 @@ const closeMenu = () => (isOpen.value = false)
 
 .burger.open::before {
   transform: rotate(45deg);
-  top: 45%;
+  top: 50%;
 }
 
 .burger.open::after {
   transform: rotate(-45deg);
   bottom: auto;
-  top: 45%;
+  top: 50%;
 }
 
 /* Responsive */
@@ -181,7 +181,7 @@ const closeMenu = () => (isOpen.value = false)
   }
 
   .header {
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     flex-wrap: wrap;
   }
 }

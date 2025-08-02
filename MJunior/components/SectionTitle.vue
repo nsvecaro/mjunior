@@ -45,7 +45,7 @@ defineProps({
 
 .title {
   font-size: 4rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   margin-bottom: 0.5rem;
 }
@@ -88,6 +88,19 @@ defineProps({
 
   .gradient-line {
     width: 120px;
+  }
+}
+@media (max-width: 480px) {
+  .section-title.left,
+  .section-title.right {
+    text-align: center;
+    align-items: center;
+  }
+
+  .section-title.left .gradient-line,
+  .section-title.right .gradient-line {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 </style>

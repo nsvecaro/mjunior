@@ -1,28 +1,13 @@
 <template>
-  <form class="kontakt-form" @submit.prevent="submitForm">
-    <input v-model="ime" type="text" placeholder="Vaše ime" required />
-    <input v-model="email" type="email" placeholder="Vaš e-mail" required />
-    <textarea v-model="poruka" rows="4" placeholder="Vaša poruka" required></textarea>
+  <form class="kontakt-form" action="https://formspree.io/f/mjkoovyz" method="POST">
+    <input name="ime" type="text" placeholder="Vaše ime" required />
+    <input name="email" type="email" placeholder="Vaš e-mail" required />
+    <textarea name="poruka" rows="4" placeholder="Vaša poruka" required></textarea>
+    <input type="text" name="_gotcha" style="display:none">
     <button type="submit">Pošalji nam poruku</button>
+    <input type="hidden" name="_next" value="https://localhost:3000/hvala">
   </form>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const ime = ref('')
-const email = ref('')
-const poruka = ref('')
-
-function submitForm() {
-  console.log('Ime:', ime.value)
-  console.log('Email:', email.value)
-  console.log('Poruka:', poruka.value)
-
-  //backend soon
-
-}
-</script>
 
 <style scoped>
 .kontakt-form {
@@ -87,19 +72,18 @@ function submitForm() {
 @media (max-width: 480px) {
   .kontakt-form {
     padding: 1.2rem;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 
   .kontakt-form input,
   .kontakt-form textarea {
-    font-size: 0.7rem;
-    padding: 0.9rem 0.5rem;
+    font-size: 0.85rem;
+    padding: 0.8rem;
   }
 
   .kontakt-form button {
-    font-size: 0.6rem;
-    padding: 0.85rem 1.1rem;
+    font-size: 0.9rem;
+    padding: 0.9rem 1rem;
   }
 }
-
 </style>

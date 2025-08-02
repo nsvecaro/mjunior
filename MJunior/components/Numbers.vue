@@ -103,4 +103,18 @@ function animateNumbers() {
   }
 
 }
+@media (max-width: 480px) {
+  .stats {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+  }
+
+  .stat-label {
+    font-size: 1rem;
+  }
+}
 </style>

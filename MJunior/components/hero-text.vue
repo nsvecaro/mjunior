@@ -1,29 +1,31 @@
 <template>
-  <div class="main-text">
-    <h2><span class="moding">MODING</span> <span class="junior">JUNIOR</span></h2>
-    <h1>Čelične konstrukcije • Proizvodnja • Montaža</h1>
-    <p>Ferrocentar - trgovina crnom i obojenom metalurgijom te proizvodnja i montaža čeličnih konstrukcija.</p>
-  </div>
-  <div class="buttons">
-    <Hero-Button buttonText="Naša ponuda →" customClass="blue-button" to="/galerija" />
-    <Hero-Button buttonText="Kontakt" customClass="yellow-button" to="#contact" />
-  </div>
+  <div class="hero-text-wrapper">
+    <div class="main-text">
+      <h2><span class="moding">MODING</span> <span class="junior">JUNIOR</span></h2>
+      <h1>Čelične konstrukcije • Proizvodnja • Montaža</h1>
+      <p>Ferrocentar - trgovina crnom i obojenom metalurgijom te proizvodnja i montaža čeličnih konstrukcija.</p>
+    </div>
+    <div class="buttons">
+      <Hero-Button buttonText="Naša ponuda →" customClass="blue-button" to="/proizvodi" />
+      <Hero-Button buttonText="Kontakt" customClass="yellow-button" to="#contact" />
+    </div>
 
-  <div class="stats-section">
-    <div class="stats-wrapper">
-      <div class="gradient-line"></div>
-      <div class="stats">
-        <div class="stat">
-          <div class="stat-number">30+</div>
-          <div class="stat-label">Godina</div>
-        </div>
-        <div class="stat">
-          <div class="stat-number">750+</div>
-          <div class="stat-label">Projekata</div>
-        </div>
-        <div class="stat">
-          <div class="stat-number">60 000+</div>
-          <div class="stat-label">Zadovoljnih klijenata</div>
+    <div class="stats-section">
+      <div class="stats-wrapper">
+        <div class="gradient-line"></div>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-number">30+</div>
+            <div class="stat-label">Godina</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">750+</div>
+            <div class="stat-label">Projekata</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">60 000+</div>
+            <div class="stat-label">Zadovoljnih klijenata</div>
+          </div>
         </div>
       </div>
     </div>
@@ -58,7 +60,7 @@
   font-size: 4rem;
   width: 100%;
   max-width: 80%;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .main-text p {
@@ -72,6 +74,7 @@
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 1.5rem;
+  font-weight: 500;
 }
 
 .blue-button {
@@ -113,6 +116,7 @@
 
 .stats-section {
   margin-top: 2rem;
+  min-height: 120px;
 }
 
 .stats {
@@ -120,38 +124,36 @@
   gap: 5rem;
   margin-top: 1rem;
   width: 100%;
-  max-width: fit-content;
+  min-height: 80px;
+  align-items: center;
 }
-
-.stats {
+.stat{
   display: flex;
-  gap: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.stat-number{
+  font-weight: 800;
+  font-size: 1.1rem;
+
 }
 
-.stat-number {
-  font-size: 1.5rem;
-  font-weight: bold;
+/* RESPONSIVE */
 
-}
-
-.stat-label {
-  font-size: 0.9rem;
-}
-
-
-
-@media (max-width: 767px) {
-
-  .main-text{
+@media (max-width: 1299px) {
+  .main-text {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 10px 20px;
+    padding: 0 20px;
   }
+
   .main-text h2 {
-    font-size: 4rem;
-    margin-bottom: 0rem;
+    font-size: 3rem;
+    max-width: 100%;
   }
 
   .main-text h1 {
@@ -165,48 +167,47 @@
   }
 
   .buttons {
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    gap: 1rem;
-    margin-top: 0.6rem;
-    padding: 10px 30px;
-  }
-
-  .buttons :deep(button) {
-    flex: 1 1 auto;
-    min-width: calc(50% - 0.5rem);
   }
 
   .stats-wrapper {
-    padding: 0px 30px;
-    width: 100%;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-
+    width: 100%;
+    padding: 0 20px;
   }
 
-  .gradient-line {
-    width: 100%;
+  .stats {
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
-  .main-text{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-  }
-  .main-text h2 {
-    font-size: 3.5rem;
-    margin-bottom: 0rem;
-    text-align: left;
-  }
-  .main-text h1 {
-    font-size: 0.9rem;
-    margin-top: 1rem;
-    text-align: left;
-  }
+@media (min-width: 1300px) and (max-width: 1500px) {
+.main-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.main-text h2{
+  margin-bottom: 0px;
+}
+
+.buttons{
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stats-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 }
 </style>

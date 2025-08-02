@@ -1,6 +1,7 @@
 <template>
   <div class="grid">
-    <img v-for="(logo, index) in logos" :key="index" :src="logo" alt="Partner logo" class="logo" />
+    <img v-for="(logo, index) in logos" :key="index" :src="logo" alt="Partner logo" class="logo" width="200"
+      height="200" loading="lazy" />
   </div>
 </template>
 
@@ -24,7 +25,7 @@ const logos = [
 <style scoped>
 .grid {
   height: 100%;
-  min-height: 80vh;
+  min-height: 600px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
@@ -46,6 +47,12 @@ const logos = [
 
 .logo:hover {
   opacity: 0.5;
+}
+
+@media (hover: none) {
+  .logo:hover {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -77,6 +84,12 @@ const logos = [
 
   .logo {
     max-width: 100px;
+  }
+
+  @media (max-width: 360px) {
+    .logo {
+      max-width: 80px;
+    }
   }
 }
 </style>

@@ -87,4 +87,23 @@ const info = [
         width: 44px;
     }
 }
+@media (max-width: 480px) {
+  .kontakt-info {
+    align-items: flex-start;
+  }
+
+  .info-item {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .label {
+    font-size: 1.2rem;
+  }
+
+  .value {
+    font-size: 0.9rem;
+  }
+}
 </style>

@@ -1,20 +1,42 @@
 <template>
   <NuxtLayout>
-      <NuxtPage />
+    <NuxtPage />
   </NuxtLayout>
 </template>
 
+<script setup>
+useHead({
+  link: [
+    {
+      rel: 'preload',
+      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
+      as: 'style'
+    },
+    {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
+      media: 'all',
+      onload: "this.onload=null;this.rel='stylesheet'"
+    }
+  ],
+  noscript: [
+    {
+      children: `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">`
+    }
+  ]
+})
+</script>
+
 <style>
 html, body, * {
-  font-family: 'Lexend', sans-serif !important;
+  font-family: 'Inter', sans-serif !important;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
+body {
   background: #fafeff;
 }
-
 html, body {
   margin: 0;
   padding: 0;
@@ -25,6 +47,4 @@ html, body {
 *::after {
   box-sizing: inherit;
 }
-
-
 </style>
