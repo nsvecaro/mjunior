@@ -1,0 +1,4 @@
+const e = ".stats[data-v-2e39a168]{align-items:center;background:linear-gradient(145deg,#ffff00a7,#2686c1a7);display:flex;flex-direction:row;gap:clamp(2rem,10vw,12rem);height:100%;justify-content:center;margin-top:0;padding:2rem 1rem;width:100%}.stat[data-v-2e39a168]{text-align:center}.stat-number[data-v-2e39a168]{color:#2463eb;font-size:3rem;font-weight:700}.stat-label[data-v-2e39a168]{font-size:1rem}@media (max-width:768px){.stats[data-v-2e39a168]{flex-direction:row;gap:3rem;padding:2rem 1rem}.stat-number[data-v-2e39a168]{font-size:2.2rem}.stat-label[data-v-2e39a168]{font-size:.8rem}}@media (max-width:480px){.stats[data-v-2e39a168]{flex-direction:column;gap:2rem}.stat-number[data-v-2e39a168]{font-size:2.5rem}.stat-label[data-v-2e39a168]{font-size:1rem}}";
+
+export { e };
+//# sourceMappingURL=Numbers-styles-1.mjs-CmOQpSax.mjs.map

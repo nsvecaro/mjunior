@@ -1,0 +1,62 @@
+[
+    {
+      "id": "Adamovec",
+      "label": "Adamovec",
+      "folder": "Adamovec",
+      "images": ["Adamovec.webp", "Adamovec1.webp", "Adamovec2.webp", "Adamovec3.webp"] 
+    },
+    {
+      "id": "GP",
+      "label": "Granični Prijelazi",
+      "folder": "GP",
+      "images": ["GranicniPrijelaz1.webp", "GranicniPrijelaz2.webp", "GranicniPrijelaz3.webp", "GranicniPrijelaz4.webp", "GranicniPrijelaz5.webp", "GranicniPrijelaz6.webp"]
+    },
+    {
+      "id": "Gramat",
+      "label": "Gramat",
+      "folder": "Gramat",
+      "images": ["Gramat4.webp", "Gramat5.webp", "Gramat6.webp", "Gramat7.webp", "Gramat8.webp", "Gramat9.webp", "Gramat10.webp"]
+    },
+    {
+      "id": "HangarAerodrom",
+      "label": "Hangar Aerodrom",
+      "folder": "HangarAerodrom",
+      "images": ["HangarAerodrom1.webp", "HangarAerodrom2.webp", "HangarAerodrom3.webp", "HangarAerodrom4.webp", "HangarAerodrom5.webp", "HangarAerodrom6.webp", "HangarAerodrom7.webp"]
+    },
+    {
+      "id": "Ina",
+      "label": "Ina",
+      "folder": "Ina",
+      "images": ["InaGospic1.webp", "InaGospic2.webp", "InaGospic3.webp", "InaGospic4.webp", "InaKrizevci1.webp", "InaKrizevci2.webp", "InaKrizevci3.webp", "InaKrizevci4.webp", "InaKrizevci5.webp", "InaPodloga.webp", "InaRebri.webp"]
+    },
+    {
+      "id": "Jablanovec",
+      "label": "Jablanovec",
+      "folder": "Jablanovec",
+      "images": ["JablanovecKonstrukcija1.webp", "JablanovecKonstrukcija2.webp", "JablanovecKonstrukcija3.webp", "JablanovecKonstrukcija4.webp"]
+    },
+    {
+      "id": "Lipnica",
+      "label": "Lipnica",
+      "folder": "Lipnica",
+      "images": ["Lipnica.webp", "Lipnica1.webp", "Lipnica2.webp", "Lipnica3.webp", "Lipnica4.webp", "Lipnica5.webp", "Lipnica6.webp", "Lipnica7.webp"]
+    },
+    {
+      "id": "Makarska",
+      "label": "Makarska APFEL",
+      "folder": "MakarskaAPFEL",
+      "images": ["MakarskaApfel1.webp", "MakarskaApfel2.webp", "MakarskaApfel3.webp", "MakarskaApfel4.webp"]
+    },
+    {
+      "id": "Minerva",
+      "label": "Minerva Medulin",
+      "folder": "MinervaMedulin",
+      "images": ["HotelMinervaMedulin1.webp", "HotelMinervaMedulin2.webp", "HotelMinervaMedulin3.webp", "HotelMinervaMedulin4.webp", "HotelMinervaMedulin5.webp", "HotelMinervaMedulin6.webp"]
+    },
+    {
+      "id": "MonperiniBale",
+      "label": "Monperini Bale",
+      "folder": "MonperinBale",
+      "images": ["MonperiniBale1.webp", "MonperiniBale2.webp", "MonperiniBale3.webp", "MonperiniBale4.webp", "MonperiniBale6.webp", "MonperiniBale9.webp", "MonperiniBale10.webp", "MonperiniBale12.webp", "MonperiniBale13.webp", "MonperiniBale14.webp", "MonperiniBale15.webp", "MonperiniBale16.webp", "MonperiniBale17.webp", "MonperiniBale19.webp", "MonperiniBale20.webp"]
+    }
+  ]
