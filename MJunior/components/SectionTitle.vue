@@ -91,6 +91,9 @@ defineProps({
   }
 }
 @media (max-width: 480px) {
+  .section-title {
+    padding: 0 1.2rem;
+  }
   .section-title.left,
   .section-title.right {
     text-align: center;

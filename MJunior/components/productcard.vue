@@ -28,6 +28,11 @@ defineProps({
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 180px;
+
+
+    
 }
 
 .card:hover {
@@ -55,5 +60,20 @@ defineProps({
     font-weight: 600;
     text-align: center;
     margin: 0;
+}
+@media (max-width: 480px) {
+  .card {
+    min-width: 140px;
+    max-width: 180px;
+    flex: 0 0 auto;
+  }
+
+  .product-image {
+    width: 80px;
+  }
+
+  .product-name {
+    font-size: 0.9rem;
+  }
 }
 </style>

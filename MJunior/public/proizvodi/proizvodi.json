@@ -1,892 +1,1054 @@
 [
     {
       "id": 1,
-      "name": "220x220",
+      "name": "220mm x 220mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 2,
-      "name": "200x200",
+      "name": "200mm x 200mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 3,
-      "name": "150x150",
+      "name": "150mm x 150mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 4,
-      "name": "120x120",
+      "name": "120mm x 120mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 5,
-      "name": "100x100",
+      "name": "100mm x 100mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 6,
-      "name": "80x80",
+      "name": "80mm x 80mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 7,
-      "name": "60x60",
+      "name": "60mm x 60mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 8,
-      "name": "50x50",
+      "name": "50mm x 50mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 9,
-      "name": "40x40",
+      "name": "40mm x 40mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 10,
-      "name": "30x30",
+      "name": "3mm x 30mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 11,
-      "name": "20x20",
+      "name": "20mm x 20mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 12,
-      "name": "15x15",
+      "name": "15mm x 15mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 13,
-      "name": "200x100",
+      "name": "200mm x 100mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 14,
-      "name": "180x80",
+      "name": "180mm x 80mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 15,
-      "name": "150x100",
+      "name": "150mm x 100mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 16,
-      "name": "150x50",
+      "name": "150mm x 50mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 17,
-      "name": "140x80",
+      "name": "140mm x 80mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 18,
-      "name": "140x40",
+      "name": "140mm x 40mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 19,
-      "name": "120x80",
+      "name": "120mm x 80mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 20,
-      "name": "120x60",
+      "name": "120mm x 60mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 21,
-      "name": "120x40",
+      "name": "120mm x 40mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 22,
-      "name": "100x80",
+      "name": "100mm x 80mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 23,
-      "name": "100x60",
+      "name": "100mm x 60mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 24,
-      "name": "100x50",
+      "name": "100mm x 50mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 25,
-      "name": "100x40",
+      "name": "100mm x 40mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
-      "id": 26,
-      "name": "100x30",
+      "id": 26, 
+      "name": "100mm x 30mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 27,
-      "name": "100x20",
+      "name": "100mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 28,
-      "name": "80x60",
+      "name": "80mm x 60mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 29,
-      "name": "80x40",
+      "name": "80mm x 40mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 30,
-      "name": "80x40",
+      "name": "80mm x 40mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 31,
-      "name": "80x30",
+      "name": "80mm x 30mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 32,
-      "name": "80x20",
+      "name": "80mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 33,
-      "name": "70x50",
+      "name": "70mm x 50mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 34,
-      "name": "60x40",
+      "name": "60mm x 40mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 35,
-      "name": "60x30",
+      "name": "60mm x 30mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 36,
-      "name": "60x20",
+      "name": "60mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 37,
-      "name": "50x40",
+      "name": "50mm x 40mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 38,
-      "name": "50x30",
+      "name": "50mm x 30mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 39,
-      "name": "40x30",
+      "name": "40mm x 30mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 40,
-      "name": "40x20",
+      "name": "40mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 41,
-      "name": "40x10",
+      "name": "40mm x 10mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 42,
-      "name": "30x20",
+      "name": "30mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 43,
-      "name": "30x13",
+      "name": "30mm x 13mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 44,
-      "name": "30x10",
+      "name": "30mm x 10mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 46,
-      "name": "ø108",
+      "name": "ø108mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 47,
-      "name": "ø101",
+      "name": "ø101mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 48,
-      "name": "ø89",
+      "name": "ø89mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 49,
-      "name": "ø76",
+      "name": "ø76mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 50,
-      "name": "ø70",
+      "name": "ø70mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 51,
-      "name": "ø60",
+      "name": "ø60mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 52,
-      "name": "ø54",
+      "name": "ø54mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 53,
-      "name": "ø50",
+      "name": "ø50mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 54,
-      "name": "ø48",
+      "name": "ø48mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 55,
-      "name": "ø42",
+      "name": "ø42mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 56,
-      "name": "ø38",
+      "name": "ø38mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 57,
-      "name": "ø33",
+      "name": "ø33mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 58,
-      "name": "ø26,9",
+      "name": "ø26,9mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 59,
-      "name": "ø21",
+      "name": "ø21mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 60,
-      "name": "ø17",
+      "name": "ø17mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 61,
-      "name": "ø12",
+      "name": "ø12mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Čelične",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 62,
-      "name": "100x100",
+      "name": "100mm x 100mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Aluminijske",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 63,
-      "name": "100x20",
+      "name": "100mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Aluminijske",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 64,
-      "name": "75x75",
+      "name": "75mm x 75mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Aluminijske",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 65,
-      "name": "60x20",
+      "name": "60mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Aluminijske",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 66,
-      "name": "50x50",
+      "name": "50mm x 50mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Aluminijske",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 67,
-      "name": "40x20",
+      "name": "40mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Aluminijske",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 68,
-      "name": "150x150",
+      "name": "150mm x 150mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 69,
-      "name": "100x100",
+      "name": "100mm x 100mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 70,
-      "name": "80x80",
+      "name": "80mm x 80mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 71,
-      "name": "60x60",
+      "name": "60mm x 60mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 72,
-      "name": "50x50",
+      "name": "50mm x 50mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 73,
-      "name": "40x40",
+      "name": "40mm x 40mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 74,
-      "name": "30x30",
+      "name": "30mm x 30mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 75,
-      "name": "20x20",
+      "name": "20mm x 20mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 76,
-      "name": "15x15",
+      "name": "15mm x 15mm",
       "image": "/proizvodi/slike/Kvadratno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Kvadratne"
+      "group": "Kvadratne",
+      "subcategoryDescription": ""
     },
     {
       "id": 77,
-      "name": "100x50",
+      "name": "100mm x 50mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 78,
-      "name": "100x40",
+      "name": "100mm x 40mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 79,
-      "name": "100x20",
+      "name": "100mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 80,
-      "name": "80x40",
+      "name": "80mm x 40mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 81,
-      "name": "80x20",
+      "name": "80mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 82,
-      "name": "60x40",
+      "name": "60mm x 40mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 83,
-      "name": "60x20",
+      "name": "60mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 84,
-      "name": "40x20",
+      "name": "40mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 85,
-      "name": "30x20",
+      "name": "30mm x 20mm",
       "image": "/proizvodi/slike/Pravokutno.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Pravokutne"
+      "group": "Pravokutne",
+      "subcategoryDescription": ""
     },
     {
       "id": 86,
-      "name": "ø76",
+      "name": "ø76mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 87,
-      "name": "ø60",
+      "name": "ø60mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 88,
-      "name": "ø48",
+      "name": "ø48mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 89,
-      "name": "ø42",
+      "name": "ø42mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 90,
-      "name": "ø33",
+      "name": "ø33mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 91,
-      "name": "ø26,9",
+      "name": "ø26,9mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 91,
-      "name": "ø21",
+      "name": "ø21mm",
       "image": "/proizvodi/slike/Okruglo.jpg",
       "category": "Cijevi",
       "subcategory": "Pocinčane",
-      "group": "Okrugle"
+      "group": "Okrugle",
+      "subcategoryDescription": ""
     },
     {
       "id": 92,
       "name": "50mm",
-      "image": "/proizvodi/slike/cijevi.png",
-      "category": "Paneli",
+      "image": "/proizvodi/slike/krovni.jpg",
+      "category": "Sendvič paneli",
       "subcategory": "Krovni",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 93,
       "name": "30mm",
-      "image": "/proizvodi/slike/cijevi.png",
-      "category": "Paneli",
+      "image": "/proizvodi/slike/krovni.jpg",
+      "category": "Sendvič paneli",
       "subcategory": "Krovni",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 94,
       "name": "15mm",
-      "image": "/proizvodi/slike/cijevi.png",
-      "category": "Paneli",
+      "image": "/proizvodi/slike/krovni.jpg",
+      "category": "Sendvič paneli",
       "subcategory": "Krovni",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 95,
       "name": "50mm",
-      "image": "/proizvodi/slike/cijevi.png",
-      "category": "Paneli",
+      "image": "/proizvodi/slike/Zidni.jpg",
+      "category": "Sendvič paneli",
       "subcategory": "Zidni",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 96,
       "name": "30mm",
-      "image": "/proizvodi/slike/cijevi.png",
-      "category": "Paneli",
+      "image": "/proizvodi/slike/Zidni.jpg",
+      "category": "Sendvič paneli",
       "subcategory": "Zidni",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 97,
-      "name": "2.1 m",
-      "image": "/proizvodi/slike/cijevi.png",
-      "category": "Paneli",
+      "name": "2100mm",
+      "image": "/proizvodi/slike/Trapezni.jpg",
+      "category": "Sendvič paneli",
       "subcategory": "Trapezni limovi",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 98,
-      "name": "15 x 3 - 300 x 20 mm",
+      "name": "15mm x 3mm",
       "image": "/proizvodi/slike/Plosnato.jpg",
       "category": "Plosnato i kutno željezo",
       "subcategory": "Plosnato željezo",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 99,
-      "name": "15 x 15 - 100 x 100 mm",
+      "name": "15mm x 15mm",
       "image": "/proizvodi/slike/Kutno.jpg",
       "category": "Plosnato i kutno željezo",
       "subcategory": "Kutno željezo",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 100,
-      "name": "3.1 m",
-      "image": "/proizvodi/slike/cijevi.png",
-      "category": "Paneli",
+      "name": "3100mm",
+      "image": "/proizvodi/slike/Trapezni.jpg",
+      "category": "Sendvič paneli",
       "subcategory": "Trapezni limovi",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 101,
-      "name": "4.1 m",
-      "image": "/proizvodi/slike/cijevi.png",
-      "category": "Paneli",
+      "name": "4100mm",
+      "image": "/proizvodi/slike/Trapezni.jpg",
+      "category": "Sendvič paneli",
       "subcategory": "Trapezni limovi",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 102,
-      "name": "5.1 m",
-      "image": "/proizvodi/slike/cijevi.png",
-      "category": "Paneli",
+      "name": "5100mm",
+      "image": "/proizvodi/slike/Trapezni.jpg",
+      "category": "Sendvič paneli",
       "subcategory": "Trapezni limovi",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 103,
-      "name": "2100x6000mm raznih debljina",
-      "image": "/proizvodi/slike/cijevi.png",
+      "name": "620mm x 2000mm",
+      "image": "/proizvodi/slike/Ograde.jpg",
       "category": "Ograde i polikarbonati",
-      "subcategory": "",
-      "group": ""
+      "subcategory": "Ograde",
+      "group": "",
+      "subcategoryDescription": "Različite dimenzije ograda u zelenoj ili antracit boji."
     },
     {
       "id": 104,
-      "name": "1mm - 20mm",
-      "image": "/proizvodi/slike/cijevi.png",
+      "name": "1000mm x 2000mm",
+      "image": "/proizvodi/slike/Limovi.jpg",
       "category": "Limovi i profili",
       "subcategory": "Toplo valjani (TV)",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": "Dvije dimenzije, mnoštvo debljina (1mm - 20mm)."
     },
     {
       "id": 105,
-      "name": "<2mm",
-      "image": "/proizvodi/slike/cijevi.png",
+      "name": "1000mm x 2000mm",
+      "image": "/proizvodi/slike/Limovi.jpg",
       "category": "Limovi i profili",
       "subcategory": "Hladno valjani (HV)",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": "Dvije dimenzije, mnoštvo debljina (<2mm)."
     },
     {
       "id": 106,
       "name": "0,8mm - 3mm",
-      "image": "/proizvodi/slike/cijevi.png",
+      "image": "/proizvodi/slike/Limovi.jpg",
       "category": "Limovi i profili",
       "subcategory": "Pocinčani",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 107,
       "name": "2mm",
-      "image": "/proizvodi/slike/cijevi.png",
+      "image": "/proizvodi/slike/Limovi.jpg",
       "category": "Limovi i profili",
       "subcategory": "Aluminijski",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 108,
       "name": "3mm",
-      "image": "/proizvodi/slike/cijevi.png",
+      "image": "/proizvodi/slike/Limovi.jpg",
       "category": "Limovi i profili",
       "subcategory": "Aluminijski",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 109,
       "name": "80mm - 300mm",
-      "image": "/proizvodi/slike/cijevi.png",
+      "image": "/proizvodi/slike/IPE.jpg",
       "category": "Limovi i profili",
       "subcategory": "IPE profili",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 110,
       "name": "100mm - 300mm",
-      "image": "/proizvodi/slike/cijevi.png",
+      "image": "/proizvodi/slike/HEA.jpg",
       "category": "Limovi i profili",
       "subcategory": "HEA profili",
-      "group": ""
+      "group": "",
+      "subcategoryDescription": ""
     },
     {
       "id": 109,
       "name": "50mm - 300mm",
-      "image": "/proizvodi/slike/cijevi.png",
+      "image": "/proizvodi/slike/UNP.jpg",
       "category": "Limovi i profili",
       "subcategory": "UNP profili",
+      "group": "",
+      "subcategoryDescription": ""
+    },
+    {
+      "id": 110,
+      "name": "1250mm x 2500mm",
+      "image": "/proizvodi/slike/Limovi.jpg",
+      "category": "Limovi i profili",
+      "subcategory": "Toplo valjani (TV)",
+      "group": "",
+      "subcategoryDescription": ""
+    },
+    {
+      "id": 111,
+      "name": "1250mm x 2500mm",
+      "image": "/proizvodi/slike/Limovi.jpg",
+      "category": "Limovi i profili",
+      "subcategory": "Hladno valjani (HV)",
+      "group": "",
+      "subcategoryDescription": ""
+    },
+    {
+      "id": 112,
+      "name": "2100mm x 6000mm",
+      "image": "/proizvodi/slike/Polikarbonati.jpg",
+      "category": "Ograde i polikarbonati",
+      "subcategory": "Polikarbonati",
+      "group": "",
+      "subcategoryDescription": "Razne debljine uz moguće rezanje po mjeri."
+    },
+    {
+      "id": 103,
+      "name": "2000mm x 2500mm",
+      "image": "/proizvodi/slike/Ograde.jpg",
+      "category": "Ograde i polikarbonati",
+      "subcategory": "Ograde",
       "group": ""
+    },
+    {
+      "id": 104,
+      "name": "300mm x 20mm",
+      "image": "/proizvodi/slike/Plosnato.jpg",
+      "category": "Plosnato i kutno željezo",
+      "subcategory": "Plosnato željezo",
+      "group": "",
+      "subcategoryDescription": "Dostupne sve veličine i debljine između 15mm x 3mm i 300mm x 20mm"
+    },
+    {
+      "id": 105,
+      "name": "100mm x 100mm",
+      "image": "/proizvodi/slike/Kutno.jpg",
+      "category": "Plosnato i kutno željezo",
+      "subcategory": "Kutno željezo",
+      "group": "",
+      "subcategoryDescription": "Dostupne sve veličine između 15mm x 15mm i 100mm x 100mm"
     }
-    
-    
 ]

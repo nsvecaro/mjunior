@@ -137,7 +137,11 @@
 .stat-number{
   font-weight: 800;
   font-size: 1.1rem;
+}
 
+.stat-label{
+  font-size: 0.8rem;
+  color: #666;
 }
 
 /* RESPONSIVE */
@@ -154,15 +158,16 @@
   .main-text h2 {
     font-size: 3rem;
     max-width: 100%;
+    margin-bottom: 1rem;
   }
 
   .main-text h1 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 1rem;
   }
 
   .main-text p {
-    font-size: 1rem;
+    font-size: 0.85rem;
     max-width: 100%;
   }
 

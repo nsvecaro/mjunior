@@ -33,7 +33,7 @@ onMounted(async () => {
   })
 
   if (statNumbers.value.length) {
-    observer.observe(statNumbers.value[0]) // možeš bilo koji jer su svi u viewportu skupa
+    observer.observe(statNumbers.value[0])
   }
 })
 

@@ -112,6 +112,7 @@ useHead({
 </script>
 
 
+
 <style scoped>
 #partners,
 #offers,

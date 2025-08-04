@@ -3,14 +3,31 @@
     <div class="container">
       <div class="footer-top">
         <div class="column left">
-          <h1>Moding Junior</h1>
+          <!--  <h1>Moding Junior</h1> -->
+          <img src="/images/ModingJuniorLogo.webp">
           <nav class="nav-links">
-            <a href="#">O nama</a>
-            <a href="#">Reference</a>
-            <a href="#">Blog</a>
+            <div class="contact-row">
+              <div class="contact-item">
+                <p class="label">E-Mail:</p>
+                <a href="mailto:info@moding-junior.hr" class="value">info@moding-junior.hr</a>
+              </div>
+              <div class="contact-item">
+                <p class="label">Telefon:</p>
+                <a href="tel:+38552500590" class="value">+38552500590</a>
+              </div>
+              <div class="contact-item">
+                <p class="label">Adresa:</p>
+                <a href="https://maps.app.goo.gl/ra5fjjZNNpFdyosp8" class="value" target="_blank"
+                  rel="noopener noreferrer">
+                  Valica 7, Pula, Istra
+                </a>
+              </div>
+            </div>
           </nav>
         </div>
-
+        <!-- <a href="#">O nama</a>
+            <a href="#">Reference</a>
+            <a href="#">Blog</a>-->
         <div class="column middle">
           <h3>Moding Junior - Brčko</h3>
           <p>Brčko - Brka, 76206<br />Industrijska zona bb</p>
@@ -38,9 +55,9 @@
         </div>
         <div class="bottom-right">
           <nav class="policy-links">
-            <a href="#">Terms & Conditions</a>
+            <!-- <a href="#">Terms & Conditions</a>
             <a href="#">Privacy Policy</a>
-            <a href="#">Cookies</a>
+            <a href="#">Cookies</a>-->
           </nav>
         </div>
       </div>
@@ -86,6 +103,10 @@
   margin-bottom: 1rem;
 }
 
+.column img {
+  width: 100px;
+}
+
 .column h3 {
   padding: 18px 0px 0px 0px;
 }
@@ -93,18 +114,50 @@
 .nav-links {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  justify-content: left;
+  align-items: left;
 }
 
 .nav-links a {
   color: #000;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav-links a:hover {
   text-decoration: underline;
 }
+
+.contact-row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: left;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.label {
+  font-weight: 400;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.value {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.value:hover {
+  text-decoration: underline;
+}
+
 
 .logos {
   display: flex;
@@ -241,6 +294,17 @@
 @media (max-width: 600px) {
   .footer-bottom {
     padding-top: 1.5rem;
+  }
+  .contact-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
   }
 }
 </style>

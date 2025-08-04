@@ -6,6 +6,18 @@
   </template>
   
   <script setup>
+import { useHead } from '#imports'
+
+useHead({
+  title: 'Poruka poslana | Moding Junior',
+  meta: [
+    {
+      name: 'robots',
+      content: 'noindex, nofollow'
+    }
+  ]
+})
+
   import { onMounted } from 'vue'
   import { useRouter } from 'vue-router'
   

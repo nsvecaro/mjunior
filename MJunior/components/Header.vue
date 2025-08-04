@@ -12,7 +12,7 @@
 
     <nav class="nav" :class="{ open: isOpen }">
       <ul class="nav-links">
-        <li><a href="/#hero" @click="closeMenu">Početna</a></li>
+        <li><a href="/" @click="closeMenu">Početna</a></li>
         
         <li><a href="/proizvodi" @click="closeMenu">Ponuda</a></li>
       </ul>

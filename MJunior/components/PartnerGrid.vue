@@ -65,7 +65,7 @@ const logos = [
 
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     padding: 1.5rem;
   }
@@ -77,7 +77,7 @@ const logos = [
 
 @media (max-width: 480px) {
   .grid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     padding: 1rem;
   }
