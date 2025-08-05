@@ -29,11 +29,11 @@
   opacity: 0;
   transition: opacity 0.6s ease-out;
   will-change: opacity;
-  min-height: 200px;
+  visibility: hidden;
 }
 
 .reveal.active {
   opacity: 1;
-  min-height: auto;
+  visibility: visible;
 }
   </style>

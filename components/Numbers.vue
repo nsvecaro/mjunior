@@ -1,22 +1,22 @@
 <template>
-    <div class="stats">
-      <div class="stat" v-for="(item, index) in stats" :key="index">
-        <div class="stat-number" ref="statNumbers">{{ item.current }}</div>
-        <div class="stat-label">{{ item.label }}</div>
-      </div>
+  <div class="stats" ref="statsEl">
+    <div class="stat" v-for="(item, index) in stats" :key="index">
+      <div class="stat-number">{{ item.display }}</div>
+      <div class="stat-label">{{ item.label }}</div>
     </div>
-  </template>
+  </div>
+</template>
 
 <script setup>
 import { ref, onMounted, nextTick } from 'vue'
 
 const stats = ref([
-  { target: 30, label: 'Godina', current: 0 },
-  { target: 750, label: 'Projekata', current: 0 },
-  { target: 60000, label: 'Zadovoljnih klijenata', current: 0 },
+  { target: 30, label: 'Godina', current: 0, display: '0' },
+  { target: 750, label: 'Projekata', current: 0, display: '0' },
+  { target: 60000, label: 'Zadovoljnih klijenata', current: 0, display: '0' },
 ])
 
-const statNumbers = ref([])
+const statsEl = ref(null)
 
 onMounted(async () => {
   await nextTick()
@@ -28,28 +28,24 @@ onMounted(async () => {
         observer.disconnect()
       }
     })
-  }, {
-    threshold: 0.5
-  })
+  }, { threshold: 0.5 })
 
-  if (statNumbers.value.length) {
-    observer.observe(statNumbers.value[0])
-  }
+  if (statsEl.value) observer.observe(statsEl.value)
 })
 
 function animateNumbers() {
-  stats.value.forEach((stat, i) => {
+  stats.value.forEach((stat) => {
     const duration = 2000
     const start = performance.now()
 
     function update(now) {
       const progress = Math.min((now - start) / duration, 1)
-      stat.current = Math.floor(stat.target * progress)
+      stat.display = Math.floor(stat.target * progress).toLocaleString()
 
       if (progress < 1) {
         requestAnimationFrame(update)
       } else {
-        stat.current = stat.target.toLocaleString()
+        stat.display = stat.target.toLocaleString()
       }
     }
 
@@ -60,33 +56,30 @@ function animateNumbers() {
 
 <style scoped>
 .stats {
-    height: 100%;
-    padding: 2rem 1rem;
-    display: flex;
-    gap: clamp(2rem, 10vw, 12rem);
-    margin-top: 0rem;
-    width: 100%;
-    background: linear-gradient(145deg, #ffff00a7, #2686c1a7);
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
+  height: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  gap: clamp(2rem, 10vw, 12rem);
+  margin-top: 0rem;
+  width: 100%;
+  background: linear-gradient(145deg, #ffff00a7, #2686c1a7);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .stat {
-    text-align: center;
+  text-align: center;
 }
 
 .stat-number {
-    font-size: 3rem;
-    color: #2463EB;
-    font-weight: bold;
-
-
+  font-size: 3rem;
+  color: #2463EB;
+  font-weight: bold;
 }
 
 .stat-label {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -95,14 +88,14 @@ function animateNumbers() {
     gap: 3rem;
     padding: 2rem 1rem;
   }
-  .stat-number{
+  .stat-number {
     font-size: 2.2rem;
   }
   .stat-label {
     font-size: 0.8rem;
   }
-
 }
+
 @media (max-width: 480px) {
   .stats {
     flex-direction: column;

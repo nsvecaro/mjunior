@@ -94,7 +94,7 @@
                 <!-- CTA -->
                 <div class="empty-cta">
                     <p class="cta-text">Trebaš pomoć pri odabiru proizvoda? Nazovi nas — odmah ćemo ti pomoći!</p>
-                    <a href="tel:+38552500590" class="cta-button">Nazovi nas</a>
+                    <a href="tel:+38552500590" class="cta-button" aria-label="Nazovi nas na broj +385 52 500 590">Nazovi nas</a>
                 </div>
             </main>
         </div>
@@ -102,6 +102,50 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'Prodaja cijevi, panela, limova i željeza | Moding Junior Pula',
+  meta: [
+    {
+      name: 'description',
+      content: 'Pogledajte našu široku ponudu čeličnih, aluminijskih i pocinčanih cijevi, sendvič panela, limova, profila, ograda i željeza. Moding Junior – više od 30 godina kvalitete i pouzdanosti.'
+    },
+    {
+      name: 'keywords',
+      content: 'cijevi, limovi, sendvič paneli, krovni paneli, zidni paneli, trapezni limovi, profili, IPE, HEA, UNP, aluminij, pocinčano, plosnato željezo, kutno željezo, polikarbonat, ograde, prodaja željeza, čelične konstrukcije Pula, Moding Junior'
+    },
+    {
+      property: 'og:title',
+      content: 'Prodaja metalnih cijevi, limova, panela i željeza | Moding Junior Pula'
+    },
+    {
+      property: 'og:description',
+      content: 'Snažna i raznovrsna ponuda građevinskog željeza i metalnih materijala. Povoljno, brzo i lokalno – Moding Junior iz Pule.'
+    },
+    {
+      property: 'og:image',
+      content: 'https://moding-junior.hr/images/og-image.jpg'
+    },
+    {
+      property: 'og:type',
+      content: 'website'
+    },
+    {
+      property: 'og:url',
+      content: 'https://moding-junior.hr/proizvodi'
+    },
+    {
+      name: 'robots',
+      content: 'index, follow'
+    }
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://moding-junior.hr/proizvodi'
+    }
+  ]
+})
+
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import ProductCard from '/components/ProductCard.vue'
 

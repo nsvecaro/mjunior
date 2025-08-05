@@ -4,7 +4,7 @@
       <div class="footer-top">
         <div class="column left">
           <!--  <h1>Moding Junior</h1> -->
-          <img src="/images/ModingJuniorLogo.webp">
+          <img src="/images/ModingJuniorLogo.webp" alt="Moding Junior Logo">
           <nav class="nav-links">
             <div class="contact-row">
               <div class="contact-item">

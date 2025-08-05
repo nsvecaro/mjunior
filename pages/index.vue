@@ -1,5 +1,5 @@
 <template>
-
+<main>
   <section id="hero">
     <div class="container">
       <div class="hero-container">
@@ -18,7 +18,7 @@
   <section id="offers" class="section-with-wave">
     <Reveal>
       <div class="decorative-line-top">
-        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none" aria-hidden="true" role="presentation" focusable="false">
           <path d="M0,60 C240,-40 1200,160 1440,60" stroke="#a4c1fd" stroke-width="4" fill="none" />
         </svg>
       </div>
@@ -29,7 +29,7 @@
       <ServiceCards />
     </Reveal>
     <div class="decorative-line">
-      <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none" aria-hidden="true" role="presentation" focusable="false">
         <path d="M0,0 C300,150 900,-50 1440,60" stroke="#a4c1fd" stroke-width="4" fill="none" />
       </svg>
     </div>
@@ -62,7 +62,7 @@
     </div>
 
   </section>
-
+</main>
 </template>
 
 <script setup>
