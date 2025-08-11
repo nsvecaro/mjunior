@@ -7,18 +7,18 @@
 
 <script setup>
 const logos = [
-  '/images/partneri/CantopyHiltonLogo.png',
-  '/images/partneri/MinistarstvoFinancijaRHLogo.png',
-  '/images/partneri/InaLogo.png',
-  '/images/partneri/MonPerinLogo.png',
-  '/images/partneri/BaltenspergerLogo.png',
-  '/images/partneri/HidroingLogo.png',
-  '/images/partneri/JedinstvoKrapinaLogo.png',
-  '/images/partneri/KudumijaLogo.png',
-  '/images/partneri/GradPulaLogo.png',
-  '/images/partneri/KolektorLogo.png',
-  '/images/partneri/MDKLogo.png',
-  '/images/partneri/MonterraLogo.png',
+  '/images/partneri/Cantopy.webp',
+  '/images/partneri/MFRH.webp',
+  '/images/partneri/Ina.webp',
+  '/images/partneri/MonPerin.webp',
+  '/images/partneri/BaltenspergerLogo.webp',
+  '/images/partneri/Hidroing.webp',
+  '/images/partneri/JedinstvoKrapina.webp',
+  '/images/partneri/Kudumija.webp',
+  '/images/partneri/GradPula.webp',
+  '/images/partneri/Kolektor.webp',
+  '/images/partneri/MDK.webp',
+  '/images/partneri/Monterra.webp',
 ]
 </script>
 

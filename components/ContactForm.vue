@@ -1,11 +1,17 @@
 <template>
-  <form class="kontakt-form" action="https://formspree.io/f/mjkoovyz" method="POST">
-    <input name="ime" type="text" placeholder="Vaše ime" required />
-    <input name="email" type="email" placeholder="Vaš e-mail" required />
-    <textarea name="poruka" rows="4" placeholder="Vaša poruka" required></textarea>
-    <input type="text" name="_gotcha" style="display:none">
+  <form class="kontakt-form" action="https://formspree.io/f/xyzpdqoj" method="POST">
+    <label for="ime" class="sr-only">Vaše ime</label>
+    <input id="ime" name="ime" type="text" placeholder="Vaše ime" required />
+
+    <label for="email" class="sr-only">Vaš e-mail</label>
+    <input id="email" name="email" type="email" placeholder="Vaš e-mail" required />
+
+    <label for="poruka" class="sr-only">Vaša poruka</label>
+    <textarea id="poruka" name="poruka" rows="4" placeholder="Vaša poruka" required></textarea>
+
+    <input type="text" name="_gotcha" style="display:none" />
     <button type="submit">Pošalji nam poruku</button>
-    <input type="hidden" name="_next" value="https://localhost:3000/hvala">
+    <input type="hidden" name="_next" value="https://moding-junior.hr/hvala" />
   </form>
 </template>
 
@@ -67,6 +73,18 @@
 .kontakt-form input::placeholder,
 .kontakt-form textarea::placeholder {
   color: #8888888a;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 @media (max-width: 480px) {

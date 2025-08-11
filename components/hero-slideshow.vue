@@ -4,14 +4,11 @@
 
         <div class="image-wrapper">
             <img :src="images[currentIndex].src" :alt="images[currentIndex].alt" class="slideshow-image"
-                :loading="currentIndex === 0 ? 'eager' : 'lazy'" width="1280" height="720" :srcset="`
-    ${images[currentIndex].src.replace('.webp', '-480.webp')} 480w,
-    ${images[currentIndex].src.replace('.webp', '-768.webp')} 768w,
-    ${images[currentIndex].src} 1280w
-  `" sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 1280px" />
+                :loading="currentIndex === 0 ? 'eager' : 'lazy'" :fetchpriority="currentIndex === 0 ? 'high' : 'low'"
+                decoding="async" width="1280" height="720" />
 
             <div class="label-box">
-                <div class="icon" v-html="images[currentIndex].icon"></div>
+                <div class="icon" v-html="images[currentIndex].icon" aria-hidden="true"></div>
                 <div class="label-content">
                     <p class="label-title">{{ images[currentIndex].title }}</p>
                     <p class="label-subtitle">{{ images[currentIndex].subtitle }}</p>
@@ -74,14 +71,10 @@ let interval = null
 
 onMounted(() => {
     setTimeout(() => {
-        startSlideshow()
+        interval = setInterval(() => {
+            currentIndex.value = (currentIndex.value + 1) % images.length
+        }, 5000)
     }, 6000)
-})
-
-onMounted(() => {
-    interval = setInterval(() => {
-        currentIndex.value = (currentIndex.value + 1) % images.length
-    }, 5000)
 })
 
 onUnmounted(() => {

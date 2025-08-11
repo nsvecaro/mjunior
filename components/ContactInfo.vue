@@ -1,7 +1,7 @@
 <template>
     <div class="kontakt-info">
         <div class="info-item" v-for="item in info" :key="item.label">
-            <div class="icon" v-html="item.icon"></div>
+            <div class="icon" v-html="item.icon" aria-hidden="true"></div>
             <div class="text-wrapper">
                 <h3 class="label">{{ item.label }}</h3>
                 <p class="value" v-html="item.value"></p>

@@ -1,7 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
+    baseURL: '/',
     head: {
+      script: [
+        {
+          hid: 'gtm-head',
+          innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-P2DQX9R8');`,
+          type: 'text/javascript'
+        }
+      ],
+      __dangerouslyDisableSanitizersByTagID: {
+        'gtm-head': ['innerHTML']
+      },
       meta: [
         { name: 'theme-color', content: '#ffffff' },
         { name: 'apple-mobile-web-app-capable', content: 'yes' },
@@ -26,7 +41,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxt/image',
-    '@nuxt/icon',
     '@nuxtjs/sitemap'
   ],
 
@@ -45,9 +59,19 @@ export default defineNuxtConfig({
     compressPublicAssets: true,
   },
 
+  experimental: {
+    payloadExtraction: true
+  },
+
+  telemetry: false,
+
   vite: {
     build: {
-      minify: 'esbuild'
+      minify: 'esbuild',
+      terserOptions: {
+        compress: true,
+        mangle: true
+      }
     }
   }
 })
